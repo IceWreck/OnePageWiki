@@ -32,7 +32,7 @@ func main() {
 
 	fileServer(r, "/static", http.Dir("./static"))
 
-	logger.Info("Starting at :8000")
+	logger.Info("Starting at " + config.Port)
 	err := http.ListenAndServe(config.Port, r)
 	if err != nil {
 		logger.Error(err)
