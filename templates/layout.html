@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <meta name="description" content="" />
+        <link rel="icon" href="/static/img/favicon.ico" />
+
+        <title>{{template "title" .}}</title>
+
+        <!-- Template CSS -->
+        <link href="/static/css/marx.min.css" rel="stylesheet" />
+        <link href="/static/css/style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/" class="brand">OnePageWiki </a></li>
+                <li id="navitem-view"><a href="/">Home </a></li>
+                <li id="navitem-edit"><a href="/edit">Edit </a></li>
+            </ul>
+        </nav>
+        <br/>
+        {{template "body" .}}
+
+    </body>
+</html>

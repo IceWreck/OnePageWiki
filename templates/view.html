@@ -1,0 +1,12 @@
+{{ define "title" }}
+{{.WikiTitle}}
+{{ end }}
+{{ define "body" }}
+<main class="markdown-view">
+    <div>{{.MarkdownHTML}}
+</div>
+</main>
+<script>
+    document.getElementById("navitem-view").classList.add("active");
+</script>
+{{ end }}

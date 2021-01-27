@@ -1,0 +1,18 @@
+{{ define "title" }} Edit - {{.WikiTitle}} {{ end }}
+{{ define "body" }}
+<main class="edit-view">
+    <form method="POST">
+        <textarea
+            rows="25"
+            name="markdown-input"
+            id="markdown-input"
+            placeholder="Your markdown here..."
+        >{{.Markdown}}</textarea>
+        <br />
+        <input type="submit" value="Submit" />
+    </form>
+</main>
+<script>
+    document.getElementById("navitem-edit").classList.add("active");
+</script>
+{{ end }}
