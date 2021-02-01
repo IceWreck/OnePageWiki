@@ -48,6 +48,42 @@ footer {
     max-width: none;
 }
 
+/* Uncomment for wider view */
+
 /* .markdown-view {
     max-width: 1024px;
 } */
+
+/* END Uncomment for wider view */
+
+
+/* Uncomment for Dark Mode */
+
+/* 
+body {
+    background-color: #191b1f;
+    color: #e8e8e9;
+}
+
+hr {
+    background-color: #e8e8e9;
+}
+
+nav {
+    background-color: #191b1f;
+}
+
+nav li.active a, a:hover, nav li a:hover {
+    color: #e8e8e9 !important ;
+}
+
+a {
+    color: #26a8ed;
+}
+
+table td, table th {
+    border: 1px solid #e8e8e9;
+}
+*/
+
+/* END Uncomment for Dark Mode */

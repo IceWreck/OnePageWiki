@@ -23,6 +23,8 @@ WIKITITLE="OnePageWiki"
 WIKIMARKDOWNFILE="./wiki.md"
 ```
 
+Uncomment the dark mode section in `static/css/style.css` for dark mode.
+
 ## Other
 Used libraries: go-chi, goldmark markdown parser, godotenv, Marx CSS. 
 Built this entire thing in less than two hours.
